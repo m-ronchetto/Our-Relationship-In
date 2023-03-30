@@ -1,0 +1,27 @@
+body{
+    background-color: #20503E;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 10%;
+}
+button{
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+h1{
+    margin: 0;
+}
+#music{
+    background-color: #EE84B3;
+    color:#5F032C;
+}
+#numbers{
+    background-color: #AEE4FC;
+    color: #006363;
+}

@@ -1,0 +1,65 @@
+body{
+    background-color: #AEE4FC;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #20503E;
+    color: white;
+    margin: 0;
+    padding-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+span{
+    color: #AEE4FC;
+}
+a{
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2{
+    margin-top: 20%;
+    font-weight: bold;
+}
+img{
+    object-fit: cover;
+    height: 80%;
+    padding: 30px;
+}
+.container{
+    margin: 3% 5% 3% 5%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    width: 30%;
+    height: 45%;
+    margin: 50px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+.front{
+    background-color: #006363;
+    color: white;
+}
+.back{
+    background-color: white;
+    color: #006363;
+    transform: rotateY(180deg);
+}
+.flipCard{
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: #EE84B3;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #20503E;
+    color: white;
+    margin: 0;
+    padding-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+span{
+    color: #EE84B3;
+}
+a{
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+#container{
+    background-color: #5F032C;
+    margin: 3% 8% 3% 8%;
+    padding: 50px;
+    height: 50%;
+}
